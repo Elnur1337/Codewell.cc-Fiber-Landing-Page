@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/style.css">
+    <title>Fiber</title>
+</head>
+<body class="overflow-x-hidden">
+    <header class="w-screen relative">
+        <nav class="flex justify-between max-w-screen-lg px-5 py-6 mx-auto lg:px-0">
+            <p class="text-lg font-medium">Fiber</p>
+            <ul class="hidden sm:flex">
+                <li class="mr-5"><a href="#">Community</a></li>
+                <li class="mr-5"><a href="#">Pricing</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+            <ul class="hidden sm:flex">
+                <li class="mr-5"><a href="#" class="font-medium">Sign In</a></li>
+                <li><a href="signUp.html" class="px-4 py-3 font-medium text-white transition duration-300 ease-in-out bg-purple-700 rounded-md hover:bg-purple-600">Sign Up</a></li>
+            </ul>
+            <svg class="w-5 h-5 icon-4427707a sm:hidden hamburgerMenuIcon">
+                <use xlink:href="#icon-4427707a" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+            <ul class="sm:hidden flex flex-col w-11/12 py-4 absolute justify-center items-center divide-y-2 divide-purple-700 mobileMenu">
+                <li class="py-2 px-8"><a href="#">Community</a></li>
+                <li class="py-2"><a href="#">Pricing</a></li>
+                <li class="py-2"><a href="#">Features</a></li>
+            </ul>
+        </nav>
+        <section class="flex flex-col items-center w-full max-w-screen-lg px-5 py-6 mx-auto lg:px-0 sm:flex-row md:pb-20">
+            <img src="./Assets/hero-Illustration.png" class="sm:w-1/2 sm:order-last">
+            <div class="sm:w-1/2">
+                <div class="items-center hidden md:flex">
+                    <div class="flex mr-3">
+                        <svg class="w-5 h-4 icon-d4f50709">
+                            <use xlink:href="#icon-d4f50709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        <svg class="w-5 h-4 icon-d4f50709">
+                            <use xlink:href="#icon-d4f50709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        <svg class="w-5 h-4 icon-d4f50709">
+                            <use xlink:href="#icon-d4f50709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        <svg class="w-5 h-4 icon-d4f50709">
+                            <use xlink:href="#icon-d4f50709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        <svg class="w-5 h-4 icon-d4f50709">
+                            <use xlink:href="#icon-d4f50709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                    </div>
+                    <p class="text-sm">Rated 4.8/5 (243 reviews)</p>
+                </div>
+                <h2 class="py-3 text-3xl font-bold md:text-4xl lg:text-5xl">Create your portfolio in minutes.</h2>
+                <p class="text-gray-600">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+                <div class="flex flex-col items-center py-3 sm:flex-row">
+                    <button class="w-full px-4 py-3 font-medium text-white transition duration-300 ease-in-out bg-purple-700 rounded-md hover:bg-purple-600 sm:mr-5 sftBtn">Start Free Trial</button>
+                    <a href="#" class="font-bold text-purple-700 underline hover:no-underline">View Examples</a>
+                </div>
+                <ul class="flex flex-col md:flex-row benefitsList">
+                    <li class="sm:mr-3"><span>No Credit Card Required</span></li>
+                    <li><span>10 Free Templates</span></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main class="w-full max-w-screen-lg px-5 py-10 mx-auto lg:px-0" id="features">
+        <p class="font-bold text-purple-700">Why Fiber?</p>
+        <h2 class="max-w-md py-3 text-3xl font-bold mb-7">A good portfolio means good employability.</h2>
+        <section class="flex flex-col w-full mb-20 sm:justify-between sm:flex-row">
+            <div class="flex flex-col items-start justify-start max-w-sm mx-auto mb-7 sm:mb-0 sm:mr-7">
+                <svg class="w-10 h-10 mb-4 icon-1d27e59b">
+                    <use xlink:href="#icon-1d27e59b" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+                <h3 class="mb-2 font-bold">Build in minutes</h3>
+                <p class="text-gray-600">With a selection of premade templates, you can build out a portfolio in less then 10 minutes.</p>
+            </div>
+            <div class="flex flex-col items-start justify-start max-w-sm mx-auto mb-7 sm:mb-0 sm:mr-7">
+                <svg class="w-10 h-10 mb-4 icon-2f3cc732">
+                    <use xlink:href="#icon-2f3cc732" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+                <h3 class="mb-2 font-bold">Add custom CSS</h3>
+                <p class="text-gray-600">Customize you personal portfolio even more with the ability to add your own custom CSS styles.</p>
+            </div>
+            <div class="flex flex-col items-start justify-start max-w-sm mx-auto">
+                <svg class="w-10 h-10 mb-4 icon-e7b48709">
+                    <use xlink:href="#icon-e7b48709" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
+                <h3 class="mb-2 font-bold">Responsive</h3>
+                <p class="text-gray-600">All Fiber templates are fully responsive to ensure the experience is seemless across all devices.</p>
+            </div>
+        </section>
+        <section class="flex flex-col w-full px-8 pt-8 bg-purple-700 rounded-lg sm:flex-row sm:justify-between mb-10">
+            <div class="mb-8 sm:self-center sm:mb-0 sm:mr-8">
+                <h2 class="max-w-md mb-2 text-3xl font-bold text-white">Diversify your portfolio.</h2>
+                <p class="max-w-sm mb-3 text-gray-300">Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
+                <button class="w-full px-4 py-3 font-medium text-purple-700 transition duration-300 ease-in-out bg-white rounded-md sm:mb-8 hover:bg-purple-100 sftBtn">Start Free Trial</button>
+            </div>
+            <img src="./Assets/Page-Image.webp" class="object-cover sm:w-1/2">
+        </section>
+        <section class="flex flex-col w-full sm:flex-row mt-10 sm:overflow-x-scroll cards select-none" id="cards">
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full mr-8 card">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar1.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Sarah Andrews</p>
+                        <p class="font-light text-gray-500 text-sm">$100k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has attracted a lot of clients and made me more than $100k.</p>
+                <button class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View Sarah's portfolio</button>
+            </div>
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full mr-8 card">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar2.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Mathew Higgins</p>
+                        <p class="font-light text-gray-500 text-sm">$20k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to work on my case studies and I'll be ready to go!</p>
+                <button
+                    class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View
+                    Mathew's portfolio</button>
+            </div>
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full mr-8 card">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar3.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Janice Dave</p>
+                        <p class="font-light text-gray-500 text-sm">$30k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">I only just started freelancing this year and have already made more then I ever made in my full-time job. The templates are so amazing.</p>
+                <button
+                    class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View
+                    Janice's portfolio</button>
+            </div>
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full mr-8 card hidden">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar1.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Sarah Andrews</p>
+                        <p class="font-light text-gray-500 text-sm">$100k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">Setting up my portfolio with Fiber took no more than 10 minutes. Since then, my portfolio has
+                    attracted a lot of clients and made me more than $100k.</p>
+                <button
+                    class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View
+                    Sarah's portfolio</button>
+            </div>
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full mr-8 card hidden">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar2.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Mathew Higgins</p>
+                        <p class="font-light text-gray-500 text-sm">$20k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">I have been getting A LOT of leads ever since I used Fiber's premade templates, now I just need to
+                    work on my case studies and I'll be ready to go!</p>
+                <button
+                    class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View
+                    Mathew's portfolio</button>
+            </div>
+            <div class="mb-8 sm:mb-0 border-gray-300 border-2 border-solid rounded-md flex flex-col justify-start p-6 w-full card hidden">
+                <div class="flex justify-start mb-4">
+                    <img src="./Assets/userAvatar3.svg" class="mr-4">
+                    <div class="flex flex-col justify-center">
+                        <p class="font-bold text-purple-700">Janice Dave</p>
+                        <p class="font-light text-gray-500 text-sm">$30k in revenue</p>
+                    </div>
+                </div>
+                <p class="mb-4">I only just started freelancing this year and have already made more then I ever made in my
+                    full-time job. The templates are so amazing.</p>
+                <button
+                    class="text-purple-700 focus:border-purple-700 font-bold border-gray-300 border-2 border-solid rounded-md w-full px-5 py-3">View
+                    Janice's portfolio</button>
+            </div>
+            <button class="w-full sm:hidden rounded-md px-5 py-3 bg-purple-700 text-white font-bold btnShowMore">Show more</button>
+        </section>
+    </main>
+    <footer>
+        <div class="flex flex-wrap lg:flex-nowrap justify-between max-w-screen-lg px-5 py-10 mx-auto lg:px-0">
+            <div class="max-w-sm my-5">
+                <h4 class="font-bold mb-2">Fiber</h4>
+                <p class="text-gray-600 mb-2">With Fiber, you can setup your own personal portfolio in minutes with dozens of premade, beautiful templates.</p>
+                <p class="text-gray-600">Made with <span class="text-xl">&hearts;</span> in the Netherlands.</p>
+            </div>
+            <ul class="text-gray-600 my-5 mr-2 lg:mr-0">
+                <li class="font-bold mb-2 text-black">Sitemap</li>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#cards">Pricing</a></li>
+                <li><a href="#features">Features</a></li>
+            </ul>
+            <ul class="text-gray-600 my-5 mr-2 lg:mr-0">
+                <li class="font-bold mb-2 text-black">Resources</li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul class="text-gray-600 my-5 mr-2 lg:mr-0">
+                <li class="font-bold mb-2 text-black">Company</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul class="text-gray-600 my-5 mr-2 lg:mr-0">
+                <li class="font-bold mb-2 text-black">Portfolios</li>
+                <li><a href="#">Sarah Andrews</a></li>
+                <li><a href="#">Mathew Higgins</a></li>
+                <li><a href="#">Janice Dave</a></li>
+            </ul>
+        </div>
+    </footer>
+    <svg display="none" xmlns="http://www.w3.org/2000/svg" class="hidden">
+        <symbol id="icon-4427707a" fill="none" viewBox="0 0 24 20" id=".27973439698316116"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 4H0V0h24v4zm0 4H0v4h24V8zm0 8H0v4h24v-4z" fill="#000" />
+        </symbol>
+        <symbol id="icon-d4f50709" fill="none" viewBox="0 0 18 18" id=".6172426926039434" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 .44l2.751 5.676L18 6.98l-4.548 4.37 1.11 6.21L9 14.585 3.437 17.56l1.111-6.21L0 6.98l6.249-.864L9 .44z"
+                fill="#FF9529" />
+        </symbol>
+        <symbol id="icon-1d27e59b" fill="none" viewBox="0 0 40 40" id=".13129697764058257" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M21.667 20l-1.147-6.667h-1.015L18.333 20a3.318 3.318 0 0 0-1.666 2.872 3.335 3.335 0 0 0 6.666 0A3.317 3.317 0 0 0 21.667 20zM20 6.667c-9.203 0-16.667 7.461-16.667 16.666S10.797 40 20 40c9.203 0 16.667-7.462 16.667-16.667 0-9.205-7.464-16.666-16.667-16.666zm0 30c-7.352 0-13.333-5.982-13.333-13.334C6.667 15.982 12.648 10 20 10s13.333 5.982 13.333 13.333c0 7.352-5.981 13.334-13.333 13.334zM16.667 3.635V0h6.666v3.635c-2.396-.405-4.32-.397-6.666 0zm15.298 3.71L34.31 5l2.357 2.357-2.202 2.201a20.226 20.226 0 0 0-2.5-2.213zM10.833 23.333a.834.834 0 1 1-1.667 0 .834.834 0 0 1 1.667 0zm20 0a.834.834 0 1 1-1.667 0 .834.834 0 0 1 1.667 0zm-10 10a.834.834 0 1 1-1.667 0 .834.834 0 0 1 1.667 0zM14.167 30a.834.834 0 1 1-1.668 0 .834.834 0 0 1 1.668 0zM27.5 30a.834.834 0 1 1-1.667 0 .834.834 0 0 1 1.667 0zM14.167 15a.834.834 0 1 1-1.668 0 .834.834 0 0 1 1.668 0zM27.5 15a.834.834 0 1 1-1.667 0 .834.834 0 0 1 1.667 0z"
+                fill="#4D13D1" />
+        </symbol>
+        <symbol id="icon-2f3cc732" fill="none" viewBox="0 0 40 40" id=".9862870901868346" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M31.667 0H8.333A8.334 8.334 0 0 0 0 8.333v23.334A8.334 8.334 0 0 0 8.333 40h23.334A8.333 8.333 0 0 0 40 31.667V8.333A8.333 8.333 0 0 0 31.667 0zM18.333 16.998L12.267 20l6.066 2.993v3.674l-10-4.892v-3.552l10-4.89v3.665zm13.334 4.777l-10 4.892v-3.674L27.733 20l-6.066-3.002v-3.665l10 4.892v3.55z"
+                fill="#4D13D1" />
+        </symbol>
+        <symbol id="icon-e7b48709" fill="none" viewBox="0 0 40 40" id=".3478820726748473" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M22.605 40H3.333A3.335 3.335 0 0 1 0 36.667V3.333A3.335 3.335 0 0 1 3.333 0h23.334A3.335 3.335 0 0 1 30 3.333V10h-3.333V5H3.333v28.333h18.334V37.5c0 .873.303 1.958.938 2.5zM37.5 11.667a2.5 2.5 0 0 1 2.5 2.5V37.5c0 1.377-1.118 2.5-2.5 2.5H25.833a2.503 2.503 0 0 1-2.5-2.5V14.167c0-1.379 1.122-2.5 2.5-2.5H37.5zM15 35a1.667 1.667 0 1 1-.001 3.335A1.667 1.667 0 0 1 15 35zm16.667 3.333a1.666 1.666 0 1 1-.001-3.332 1.666 1.666 0 0 1 0 3.332zm6.666-5V16.627H25v16.706h13.333zM32.5 15a.835.835 0 0 0 .833-.833.835.835 0 0 0-.833-.834h-1.667a.834.834 0 0 0 0 1.667H32.5z"
+                fill="#4D13D1" />
+        </symbol>
+    </svg>
+    <script src="main.js"></script>
+</body>
+</html>

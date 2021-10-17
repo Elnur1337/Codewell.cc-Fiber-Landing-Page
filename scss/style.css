@@ -1,0 +1,84 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+header,
+footer,
+.mobileMenu {
+  background: #fbf8f3;
+}
+
+.sftBtn {
+  max-width: 250px;
+}
+
+.benefitsList > li {
+  list-style-image: url(../Assets/Checkmark.svg);
+  margin-left: 24px;
+}
+
+.benefitsList > li > span {
+  top: -3px;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+#cards {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+nav {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.mobileMenu {
+  top: -200px;
+  -webkit-transition: top 1000ms ease-in-out;
+  transition: top 1000ms ease-in-out;
+  -webkit-transform: translateZ(-10px);
+          transform: translateZ(-10px);
+}
+
+.mobileMenu.activeMenu {
+  top: 76px;
+}
+
+.custom-h {
+  height: 55px;
+}
+
+#passContainer:focus-within {
+  border-color: #6d28d9;
+}
+
+#terms {
+  accent-color: #6d28d9;
+  max-width: 19.563px;
+  max-height: 32px;
+}
+
+.wrapper {
+  max-width: 555px;
+}
+
+.circleActive {
+  background: #ddd6fe;
+}
+
+@media (min-width: 640px) {
+  .sftBtn {
+    max-width: 150px;
+  }
+  .card {
+    min-width: 22rem;
+    max-width: 22rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
